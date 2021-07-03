@@ -1,0 +1,25 @@
+
+form{
+	display: flex;
+	height: 70%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+form input{
+	border-radius: 12px;
+	outline: none;
+	font-size: larger;
+
+}
+form *{
+	margin: 5px;
+}
+button{
+	width: 15%;
+	height: 7%;
+	border-radius: 12px;
+	background-color: unset;
+	outline: none;
+	cursor: pointer;
+}

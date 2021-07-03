@@ -1,0 +1,73 @@
+body{
+    margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	height:100vh;
+}
+
+
+#a{
+	display: flex;
+	height: 80%;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 10px;
+}
+#a input{
+	width: 30%;
+	height: 7%;
+	border-radius: 12px;
+	outline: none;
+
+}
+#a *{
+	margin: 5px;
+}
+
+.message-container{
+	width: 70%;
+	height: 100%;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: flex-start;
+	overflow-x: hidden;
+	padding: 5px 20px 5px 10px;
+    font-size: 20px;
+	margin-bottom: 5px;
+}
+.message{
+	width: max-content;
+	max-width: 70%;
+	
+}
+.message p{
+
+	width: max-content;
+	max-width: 97%;
+	word-wrap: break-word;
+	color: white;
+	outline: none;
+	background-color: rgb(56, 50, 50);
+	padding: 5px 10px;
+	margin: 0px;
+	border: 1px solid rgb(56, 50, 50);
+	border-radius: 20px;
+	
+}
+
+.send{
+	align-self: flex-end;
+
+}
+.send p{
+	margin:1px;
+	margin-block-start: 0vw;
+	display: inline-block;
+	margin-block-end: 0vw;
+
+}
+
+form{
+    width: 90%;
+}

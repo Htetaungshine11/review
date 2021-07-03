@@ -1,0 +1,12 @@
+{%extends "base.html"%} {%block header %} {%endblock%} {%block body %}
+<h1>simple</h1>
+<script>
+  const wc = new WebSocket("ws://127.0.0.1:8000/a/");
+  wc.onopen = function (e) {
+    console.log(e);
+  };
+  wc.onmessage = function (e) {
+    console.log(e);
+  };
+</script>
+{%endblock%}
